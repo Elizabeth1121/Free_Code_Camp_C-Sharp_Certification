@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Exercise_combine_string_array_values_as _strings_and_as_integers/1.0.0": {
+        "runtime": {
+          "Exercise_combine_string_array_values_as _strings_and_as_integers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercise_combine_string_array_values_as _strings_and_as_integers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

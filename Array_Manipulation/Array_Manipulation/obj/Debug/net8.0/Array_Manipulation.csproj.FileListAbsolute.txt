@@ -1,0 +1,14 @@
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\bin\Debug\net8.0\Array_Manipulation.exe
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\bin\Debug\net8.0\Array_Manipulation.deps.json
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\bin\Debug\net8.0\Array_Manipulation.runtimeconfig.json
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\bin\Debug\net8.0\Array_Manipulation.dll
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\bin\Debug\net8.0\Array_Manipulation.pdb
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.AssemblyInfoInputs.cache
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.AssemblyInfo.cs
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.csproj.CoreCompileInputs.cache
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.dll
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\refint\Array_Manipulation.dll
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.pdb
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\Array_Manipulation.genruntimeconfig.cache
+c:\Users\itsyb\Free_Code_Camp_C#_Certification\Array_Manipulation\Array_Manipulation\obj\Debug\net8.0\ref\Array_Manipulation.dll
