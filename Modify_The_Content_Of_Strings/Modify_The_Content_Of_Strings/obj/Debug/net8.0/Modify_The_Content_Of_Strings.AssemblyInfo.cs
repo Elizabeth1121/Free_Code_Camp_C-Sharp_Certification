@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Modify_The_Content_Of_Strings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4484f2a1eb236b217bcd62b51269f8f3697b19f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f2674b36f01b5c3192933b36557215a8286d337")]
 [assembly: System.Reflection.AssemblyProductAttribute("Modify_The_Content_Of_Strings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Modify_The_Content_Of_Strings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
