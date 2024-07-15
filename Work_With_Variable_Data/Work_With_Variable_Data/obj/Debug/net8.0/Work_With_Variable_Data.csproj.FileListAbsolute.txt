@@ -1,0 +1,15 @@
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\bin\Debug\net8.0\Work_With_Variable_Data.exe
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\bin\Debug\net8.0\Work_With_Variable_Data.deps.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\bin\Debug\net8.0\Work_With_Variable_Data.runtimeconfig.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\bin\Debug\net8.0\Work_With_Variable_Data.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\bin\Debug\net8.0\Work_With_Variable_Data.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.AssemblyInfoInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.AssemblyInfo.cs
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.csproj.CoreCompileInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.sourcelink.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\refint\Work_With_Variable_Data.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\Work_With_Variable_Data.genruntimeconfig.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Work_With_Variable_Data\Work_With_Variable_Data\obj\Debug\net8.0\ref\Work_With_Variable_Data.dll
