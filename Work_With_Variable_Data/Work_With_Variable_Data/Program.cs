@@ -176,7 +176,7 @@ do
                     foreach(var countdown in searchingIcons)
                     {
                         Thread.Sleep(350);
-                        
+
                         foreach(var spin in spinningAnimation)
                         {
                             Console.Write($"\r{search} {spin} {countdown}");
@@ -202,7 +202,7 @@ do
                             string personalityDescription = ourAnimals[i, 5];
 
                             Console.WriteLine($"Our dog {ourAnimals[i, 3]} is a {animalDescriptions[x]} match!");
-                            animalMatch = $"\nNickname: {nickName}\nPhysical Description: {physicalDescription}\nPersonality: {personalityDescription}\n";
+                            animalMatch = $"\n{nickName}\nPhysical Description: {physicalDescription}\nPersonality: {personalityDescription}\n";
 
                             // #3c set a flag "this dog" is a match
                             noMatchesDog = false;
