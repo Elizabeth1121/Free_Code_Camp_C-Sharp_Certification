@@ -94,7 +94,6 @@ do
 {
     // NOTE: the Console.Clear method is throwing an exception in debug sessions
     //Console.Clear();
-
     Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");
     Console.WriteLine(" 1. List all of our current pet information");
     Console.WriteLine(" 2. Display all dogs with a specified characteristic");
@@ -192,13 +191,8 @@ do
                     {
                         if(ourAnimals[i, 4].Contains(animalDescriptions[x]))
                         {
-                            // nickName here
                             string nickName = ourAnimals[i, 3];
-
-                            // description here
                             string physicalDescription = ourAnimals[i, 4];
-
-                            // personality here
                             string personalityDescription = ourAnimals[i, 5];
 
                             Console.WriteLine($"Our dog {ourAnimals[i, 3]} is a {animalDescriptions[x]} match!");
