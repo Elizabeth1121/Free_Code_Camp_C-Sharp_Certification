@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 // ourAnimals array will store the following: 
 string animalSpecies = "";
@@ -94,9 +95,12 @@ do
 {
     // NOTE: the Console.Clear method is throwing an exception in debug sessions
     //Console.Clear();
+
     Console.WriteLine("Welcome to the Contoso PetFriends app. Your main menu options are:");
     Console.WriteLine(" 1. List all of our current pet information");
     Console.WriteLine(" 2. Display all dogs with a specified characteristic");
+    // adding a new menu option here
+    Console.WriteLine(" 3. Ensure all animal ages and physical descriptions are complete");
     Console.WriteLine();
     Console.WriteLine("Enter your selection number (or type Exit to exit the program)");
 
@@ -125,7 +129,9 @@ do
 
             Console.WriteLine("\r\nPress the Enter key to continue");
             readResult = Console.ReadLine();
+
             break;
+
         case "2":
             // #1 Display all dogs with a multiple search characteristics
 
@@ -134,89 +140,178 @@ do
             while (dogCharacteristic == "")
             {
                 // #2 have user enter multiple comma separated characteristics to search for
-                Console.WriteLine($"\r\nEnter dog characteristics to search for separated by commas");
+                Console.WriteLine($"\r\nEnter one desired dog characteristic to search for");
                 readResult = Console.ReadLine();
-
-                if (!string.IsNullOrWhiteSpace(readResult))
+                if (readResult != null)
                 {
-                    dogCharacteristic = readResult;
+                    dogCharacteristic = readResult.ToLower().Trim();
                     Console.WriteLine();
                 }
             }
 
-            dogCharacteristic = dogCharacteristic.ToLower().Trim();
-
-            string[] searchingIcons = {"2", "1", "0"};
-            string[] spinningAnimation = {"|", "/", "--", "\\"};
-            string[] animalDescriptions = dogCharacteristic.Split(", ");
             bool noMatchesDog = true;
-            string dogDescription = string.Empty;
-            string animalMatch = string.Empty;
-            string search = string.Empty;
+            string dogDescription = "";
+            
+            // #4 update to "rotating" animation with countdown
+            string[] searchingIcons = {".  ", ".. ", "..."};
 
             // loop ourAnimals array to search for matching animals
             for (int i = 0; i < maxPets; i++)
             {
-                if(ourAnimals[i, 1].Contains("dog"))
+
+                if (ourAnimals[i, 1].Contains("dog"))
                 {
+                    
                     // Search combined descriptions and report results
                     dogDescription = ourAnimals[i, 4] + "\r\n" + ourAnimals[i, 5];
-
-                    // creating search string
-                    search = $"searching our dog {ourAnimals[i, 3]} for {dogCharacteristic}";
-
-                    int maxIconLength = searchingIcons.Length;
-                    int maxSpinLength = spinningAnimation.Length;
-                    int maxMessageLength = 0;
-
-                    // getting the length of the spin and countdown string to clear later
-                    maxMessageLength = search.Length + maxIconLength + maxSpinLength;
-
-                    foreach(var countdown in searchingIcons)
+                    
+                    for (int j = 5; j > -1 ; j--)
                     {
-                        Thread.Sleep(350);
-
-                        foreach(var spin in spinningAnimation)
+                    // #5 update "searching" message to show countdown 
+                        foreach (string icon in searchingIcons)
                         {
-                            Console.Write($"\r{search} {spin} {countdown}");
-                            Thread.Sleep(100);
-
-                            //Clear the console line here
-                            Console.Write($"\r{new string(' ', maxMessageLength)}\r");
+                            Console.Write($"\rsearching our dog {ourAnimals[i, 3]} for {dogCharacteristic} {icon}");
+                            Thread.Sleep(250);
                         }
+                        
+                        Console.Write($"\r{new String(' ', Console.BufferWidth)}");
+                    }
+                    
+                    // #3a iterate submitted characteristic terms and search description for each term
+                    
+                    if (dogDescription.Contains(dogCharacteristic))
+                    {
+                        // #3b update message to reflect term 
+                        // #3c set a flag "this dog" is a match
+                        Console.WriteLine($"\nOur dog {ourAnimals[i, 3]} is a match!");
+
+                        noMatchesDog = false;
                     }
 
-                    // add another loop for animalDescriptions
-                    for(int x = 0; x < animalDescriptions.Length; x++)
-                    {
-                        if(ourAnimals[i, 4].Contains(animalDescriptions[x]))
-                        {
-                            string nickName = ourAnimals[i, 3];
-                            string physicalDescription = ourAnimals[i, 4];
-                            string personalityDescription = ourAnimals[i, 5];
-
-                            Console.WriteLine($"Our dog {ourAnimals[i, 3]} is a {animalDescriptions[x]} match!");
-                            animalMatch = $"\n{nickName}\nPhysical Description: {physicalDescription}\nPersonality: {personalityDescription}\n";
-
-                            // #3c set a flag "this dog" is a match
-                            noMatchesDog = false;
-                        }
-                    }
-
-                    Console.WriteLine(animalMatch); 
-
+                    // #3d if "this dog" is match write match message + dog description
                 }
             }
 
             if (noMatchesDog)
             {
-                Console.WriteLine("\nNone of our dogs are a match found for: " + dogCharacteristic);
-            }  
-            
+                Console.WriteLine("None of our dogs are a match found for: " + dogCharacteristic);
+            }
+
             Console.WriteLine("\n\rPress the Enter key to continue");
             readResult = Console.ReadLine();
 
             break;
+        // adding new case to itterate through all pets information to make sure its been filled out completly and correctly
+        case "3":
+            for (int i = 0; i < maxPets; i++)
+            {
+                string idOfPet = ourAnimals[i, 0].Remove(0, 6);
+
+                if(idOfPet == "")
+                {
+                    continue;
+                }
+                
+                int petDescriptionCounter = 6;
+
+                for(int x = 1; x < petDescriptionCounter; x++)
+                {
+                    string[] splitStr = ourAnimals[i, x].Split(": ");
+                    string petDescription = splitStr[1];
+
+                    if(string.IsNullOrWhiteSpace(petDescription))
+                    {
+                        switch(x)
+                        {
+                            case 1:
+                            // pet species
+                                Console.WriteLine($"Enter the species for {ourAnimals[i, 0]}");
+                                readResult = Console.ReadLine();
+
+                                while(string.IsNullOrWhiteSpace(readResult))
+                                {
+                                    Console.WriteLine($"Enter the species for {ourAnimals[i, 0]}");
+                                    readResult = Console.ReadLine();
+                                }
+
+                                ourAnimals[i, x] = splitStr[0] + ": " + readResult;
+                                Console.WriteLine("Species description field completed.");
+
+                                break;
+                            case 2:
+                            // pet age
+                                Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                                readResult = Console.ReadLine();
+                                int age = 0;
+
+                                while(!int.TryParse(readResult, out age) || string.IsNullOrWhiteSpace(readResult))
+                                {
+                                    Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                                    readResult = Console.ReadLine();
+                                }
+                                
+                                ourAnimals[i, x] = splitStr[0] + ": " + readResult;
+                                Console.WriteLine("Age description field completed.");
+
+                                break;
+                            case 3:
+                            // pet nickname
+                                Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                                readResult = Console.ReadLine();
+
+                                while(string.IsNullOrWhiteSpace(readResult))
+                                {
+                                    Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                                    readResult = Console.ReadLine();
+                                }
+
+                                ourAnimals[i, x] = splitStr[0] + ": " + readResult;
+                                Console.WriteLine("Nickname description field completed.");
+
+                                break;
+                            case 4:
+                            // pet physical description
+                                Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]} (size, color, breed, gender, weight, housebroken)");
+                                readResult = Console.ReadLine();
+
+                                while(string.IsNullOrWhiteSpace(readResult))
+                                {
+                                    Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]} (size, color, breed, gender, weight, housebroken)");
+                                    readResult = Console.ReadLine();
+                                }
+
+                                ourAnimals[i, x] = splitStr[0] + ": " + readResult;
+                                Console.WriteLine("Physical description field completed.");
+
+                                break;
+                            case 5:
+                            // pet personality
+                                Console.WriteLine($"Enter the personality for {ourAnimals[i, 0]} (likes or dislikes, tricks, energy level)");
+                                readResult = Console.ReadLine();
+
+                                while(string.IsNullOrWhiteSpace(readResult))
+                                {
+                                    Console.WriteLine($"Enter the personality for {ourAnimals[i, 0]} (likes or dislikes, tricks, energy level)");
+                                    readResult = Console.ReadLine();
+                                }
+
+                                ourAnimals[i, x] = splitStr[0] + ": " + readResult;
+                                Console.WriteLine("Personality description field completed.");
+
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+            }
+
+            Console.WriteLine("All description fields are complete for all our friends.");
+            Console.WriteLine("\n\rPress the Enter key to continue");
+            readResult = Console.ReadLine();
+
+            break;
+
         default:
             break;
     }

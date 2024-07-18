@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {}
+    "c:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {
+    "c:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
+        "projectUniqueName": "c:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
         "projectName": "Work_With_Variable_Data",
-        "projectPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
+        "projectPath": "c:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
         "packagesPath": "C:\\Users\\itsyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\obj\\",
+        "outputPath": "c:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\itsyb\\AppData\\Roaming\\NuGet\\NuGet.Config"
