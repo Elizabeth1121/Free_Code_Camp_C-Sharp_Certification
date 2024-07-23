@@ -1,78 +1,74 @@
-﻿using System;
+﻿// if ipAddress consits of 4 numbers
+// and
+// if each ipAddress number has no leading zeros
+// and
+// if each ipAddress number is in range 0 - 255
 
-int[] times = {800, 1200, 1600, 2000};
-int diff = 0;
+// then ipAddress is valid
 
-Console.WriteLine("Enter current GMT");
-int currentGMT = Convert.ToInt32(Console.ReadLine());
+// esle ipAddress is invalid
 
-Console.WriteLine("Current Medicine Schedule:");
+string[] ipv4Input = {"107.31.1.5", "255.0.0.255", "555..0.555", "255...255"};
+string[] address;
+bool validLength = false;
+bool validZeros = false;
+bool validRange = false;
 
-/* Format and display medicine times */
-DisplayTimes();
 
-//Console.WriteLine();
-
-Console.WriteLine("Enter new GMT");
-int newGMT = Convert.ToInt32(Console.ReadLine());
-
-if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
+foreach(string ip in ipv4Input)
 {
-    Console.WriteLine("Invalid GMT");
-}
-else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0) 
-{
-    diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
+    address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries);
 
-    /* Adjust the times by adding the difference, keeping the value within 24 hours */
-    AdjustTimes();
-} 
-else 
-{
-    diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
+    ValidateLength();
+    ValidateZeroes();
+    ValidateRange();
 
-    /* Adjust the times by adding the difference, keeping the value within 24 hours */
-    AdjustTimes();
-}
-
-Console.WriteLine("New Medicine Schedule:");
-
-/* Format and display medicine times */
-DisplayTimes();
-
-Console.WriteLine();
-
-void DisplayTimes()
-{
-    /* Format and display medicine times */
-    foreach (int val in times)
+    if (validLength && validZeros && validRange)
     {
-        string time = val.ToString();
-        int len = time.Length;
-
-        if (len >= 3)
-        {
-            time = time.Insert(len - 2, ":");
-        }
-        else if (len == 2)
-        {
-            time = time.Insert(0, "0:");
-        }
-        else
-        {
-            time = time.Insert(0, "0:0");
-        }
-
-        Console.Write($"{time} ");
+        Console.WriteLine($"{ip} is a valid IPv4 address");
     }
-    Console.WriteLine();
+    else
+        Console.WriteLine($"{ip} is an invalid IPv4 address");
+
 }
 
-void AdjustTimes()
+void ValidateRange()
 {
-    /* Adjust the times by adding the difference, keeping the value within 24 hours */
-    for (int i = 0; i < times.Length; i++) 
+    //string[] address = ipv4Input.Split(".", StringSplitOptions.RemoveEmptyEntries);
+
+    foreach(string number in address)
     {
-        times[i] = ((times[i] + diff)) % 2400;
+        int vlaue = int.Parse(number);
+        if(vlaue < 0 || vlaue > 255)
+        {
+            validRange = false;
+            return;
+        }
     }
+
+    validRange = true;
+
+}
+
+void ValidateZeroes()
+{
+    //string[] address = ipv4Input.Split(".");
+
+    foreach(string number in address)
+    {
+        if(number.Length > 1 && number.StartsWith("0"))
+        {
+            validZeros = false;
+            return;
+        }
+    }
+
+    validZeros = true;
+
+}
+
+void ValidateLength()
+{
+    //string[] address = ipv4Input.Split(".");
+    validLength = address.Length == 4;
 }
