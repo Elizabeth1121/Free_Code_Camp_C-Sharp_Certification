@@ -1,0 +1,15 @@
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\bin\Debug\net8.0\Methods_In_C-Sharp.exe
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\bin\Debug\net8.0\Methods_In_C-Sharp.deps.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\bin\Debug\net8.0\Methods_In_C-Sharp.runtimeconfig.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\bin\Debug\net8.0\Methods_In_C-Sharp.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\bin\Debug\net8.0\Methods_In_C-Sharp.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.AssemblyInfoInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.AssemblyInfo.cs
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.csproj.CoreCompileInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.sourcelink.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\refint\Methods_In_C-Sharp.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\Methods_In_C-Sharp.genruntimeconfig.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Methods_In_C-Sharp\Methods_In_C-Sharp\obj\Debug\net8.0\ref\Methods_In_C-Sharp.dll

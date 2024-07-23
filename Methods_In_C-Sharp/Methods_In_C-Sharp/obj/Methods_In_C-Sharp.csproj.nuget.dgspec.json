@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {}
+    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Methods_In_C-Sharp\\Methods_In_C-Sharp\\Methods_In_C-Sharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj": {
+    "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Methods_In_C-Sharp\\Methods_In_C-Sharp\\Methods_In_C-Sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
-        "projectName": "Work_With_Variable_Data",
-        "projectPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\Work_With_Variable_Data.csproj",
+        "projectUniqueName": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Methods_In_C-Sharp\\Methods_In_C-Sharp\\Methods_In_C-Sharp.csproj",
+        "projectName": "Methods_In_C-Sharp",
+        "projectPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Methods_In_C-Sharp\\Methods_In_C-Sharp\\Methods_In_C-Sharp.csproj",
         "packagesPath": "C:\\Users\\itsyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Work_With_Variable_Data\\Work_With_Variable_Data\\obj\\",
+        "outputPath": "C:\\Users\\itsyb\\Free_Code_Camp_C#_Certification\\Methods_In_C-Sharp\\Methods_In_C-Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\itsyb\\AppData\\Roaming\\NuGet\\NuGet.Config"
