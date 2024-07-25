@@ -1,74 +1,38 @@
-﻿// if ipAddress consits of 4 numbers
-// and
-// if each ipAddress number has no leading zeros
-// and
-// if each ipAddress number is in range 0 - 255
+﻿
+Console.WriteLine("How many times do you want to roll the dice? ");
+string input = Console.ReadLine();
+int counter = 0;
 
-// then ipAddress is valid
-
-// esle ipAddress is invalid
-
-string[] ipv4Input = {"107.31.1.5", "255.0.0.255", "555..0.555", "255...255"};
-string[] address;
-bool validLength = false;
-bool validZeros = false;
-bool validRange = false;
-
-
-foreach(string ip in ipv4Input)
+if(int.TryParse(input, out counter))
 {
-    address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries);
-
-    ValidateLength();
-    ValidateZeroes();
-    ValidateRange();
-
-    if (validLength && validZeros && validRange)
+    for(int i = 0; i < counter; i++)
     {
-        Console.WriteLine($"{ip} is a valid IPv4 address");
+        OutComes();
+        Console.WriteLine("\n");
     }
-    else
-        Console.WriteLine($"{ip} is an invalid IPv4 address");
-
+}
+else
+{
+    Console.WriteLine($"{input} is not a number.");
 }
 
-void ValidateRange()
+void OutComes()
 {
-    //string[] address = ipv4Input.Split(".", StringSplitOptions.RemoveEmptyEntries);
+    Random random = new Random();
+    int luck = random.Next(100);
 
-    foreach(string number in address)
+    string[] text = {"You have much to", "Today is a day to", "Whatever work you do", "This is an ideal time to"};
+    string[] good = {"look forward to.", "try new things!", "is likely to succeed.", "accomplish your dreams!"};
+    string[] bad = {"fear.", "avoid major decisions.", "may have unexpected outcomes.", "re-evaluate your life."};
+    string[] neutral = {"appreciate.", "enjoy time with friends.", "should align with your values.", "get in tune with nature."};
+    string outComeLetter = (luck > 75 ? "A" : (luck < 25 ? "C" : "B"));
+
+    Console.WriteLine($"```Output {outComeLetter}");
+    Console.WriteLine("A fortune teller whispers the following words:");
+    string[] fortune = (luck > 75 ? good : (luck < 25 ? bad : neutral));
+
+    for(int i = 0; i < fortune.Length; i++)
     {
-        int vlaue = int.Parse(number);
-        if(vlaue < 0 || vlaue > 255)
-        {
-            validRange = false;
-            return;
-        }
+        Console.Write($"{text[i]} {fortune[i]} ");
     }
-
-    validRange = true;
-
-}
-
-void ValidateZeroes()
-{
-    //string[] address = ipv4Input.Split(".");
-
-    foreach(string number in address)
-    {
-        if(number.Length > 1 && number.StartsWith("0"))
-        {
-            validZeros = false;
-            return;
-        }
-    }
-
-    validZeros = true;
-
-}
-
-void ValidateLength()
-{
-    //string[] address = ipv4Input.Split(".");
-    validLength = address.Length == 4;
 }
