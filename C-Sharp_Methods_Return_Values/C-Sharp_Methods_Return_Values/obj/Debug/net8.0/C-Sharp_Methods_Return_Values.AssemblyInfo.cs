@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C-Sharp_Methods_Return_Values")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01fbca305bad080b5852efcf0e814ba09aedfe7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bc52b82b3e4860dc46d41f1dde175b7717a4567")]
 [assembly: System.Reflection.AssemblyProductAttribute("C-Sharp_Methods_Return_Values")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C-Sharp_Methods_Return_Values")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
