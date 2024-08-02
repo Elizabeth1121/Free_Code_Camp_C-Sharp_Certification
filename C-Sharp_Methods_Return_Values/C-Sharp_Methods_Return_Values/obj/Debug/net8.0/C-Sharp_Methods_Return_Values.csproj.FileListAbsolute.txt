@@ -1,0 +1,15 @@
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.AssemblyInfoInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.AssemblyInfo.cs
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.csproj.CoreCompileInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.sourcelink.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\bin\Debug\net8.0\C-Sharp_Methods_Return_Values.exe
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\bin\Debug\net8.0\C-Sharp_Methods_Return_Values.deps.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\bin\Debug\net8.0\C-Sharp_Methods_Return_Values.runtimeconfig.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\bin\Debug\net8.0\C-Sharp_Methods_Return_Values.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\bin\Debug\net8.0\C-Sharp_Methods_Return_Values.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\refint\C-Sharp_Methods_Return_Values.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\C-Sharp_Methods_Return_Values.genruntimeconfig.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\C-Sharp_Methods_Return_Values\C-Sharp_Methods_Return_Values\obj\Debug\net8.0\ref\C-Sharp_Methods_Return_Values.dll
