@@ -1,25 +1,31 @@
-﻿//Console.WriteLine($"Reversing word here: {ReverseWord("Hello")}");
-Console.WriteLine($"Reversing a sentence here: {ReverseSentence("There are snakes at the zoo")}");
+﻿string[] words = {"racecar", "talented", "deified", "tent", "tenet"};
 
-string ReverseWord(string word)
+Console.WriteLine("Is it a palindrome?");
+
+foreach(var word in words)
 {
-    string result = "";
-    for (int i = word.Length - 1; i >= 0; i--)
+    if(IsPalindrome(word))
     {
-        result += word[i];
+        Console.WriteLine($"{word}: {IsPalindrome(word)}");
     }
-
-    return result;
+    else
+        Console.WriteLine($"{word}: {IsPalindrome(word)}");
 }
 
-string ReverseSentence(string input)
+bool IsPalindrome(string word)
 {
-    string result = "";
-    string[] words = input.Split(" ");
-    foreach (var word in words)
+    int start = 0;
+    int end = word.Length - 1;
+
+    while (start < end)
     {
-        result += ReverseWord(word) + " ";
+        if(word[start] != word[end])
+        {
+            return false;
+        }
+        start++;
+        end--;
     }
 
-    return result.Trim();
+    return true;
 }
