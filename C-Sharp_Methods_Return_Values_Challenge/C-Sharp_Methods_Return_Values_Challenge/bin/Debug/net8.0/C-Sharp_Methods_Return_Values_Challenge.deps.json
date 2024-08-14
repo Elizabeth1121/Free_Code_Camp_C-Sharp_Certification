@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "C-Sharp_Methods_Return_Values_Challenge/1.0.0": {
+        "runtime": {
+          "C-Sharp_Methods_Return_Values_Challenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C-Sharp_Methods_Return_Values_Challenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
