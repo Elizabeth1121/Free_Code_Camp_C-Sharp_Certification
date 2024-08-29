@@ -1,0 +1,15 @@
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\bin\Debug\net8.0\Zoo_application.exe
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\bin\Debug\net8.0\Zoo_application.deps.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\bin\Debug\net8.0\Zoo_application.runtimeconfig.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\bin\Debug\net8.0\Zoo_application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\bin\Debug\net8.0\Zoo_application.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.AssemblyInfoInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.AssemblyInfo.cs
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.csproj.CoreCompileInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.sourcelink.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\refint\Zoo_application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\Zoo_application.genruntimeconfig.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Zoo_application\Zoo_application\obj\Debug\net8.0\ref\Zoo_application.dll
