@@ -1,0 +1,15 @@
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\bin\Debug\net8.0\Mini_Game_Application.exe
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\bin\Debug\net8.0\Mini_Game_Application.deps.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\bin\Debug\net8.0\Mini_Game_Application.runtimeconfig.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\bin\Debug\net8.0\Mini_Game_Application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\bin\Debug\net8.0\Mini_Game_Application.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.AssemblyInfoInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.AssemblyInfo.cs
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.csproj.CoreCompileInputs.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.sourcelink.json
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\refint\Mini_Game_Application.dll
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.pdb
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\Mini_Game_Application.genruntimeconfig.cache
+C:\Users\itsyb\Free_Code_Camp_C#_Certification\Mini_Game_Application\Mini_Game_Application\obj\Debug\net8.0\ref\Mini_Game_Application.dll
