@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C-Sharp_Methods_Return_Values_Challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01a150b39909e5c300425234d6c450192f379904")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84584aa3be751d4fe6fa1fd4a12bb5f33205c4b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("C-Sharp_Methods_Return_Values_Challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C-Sharp_Methods_Return_Values_Challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
