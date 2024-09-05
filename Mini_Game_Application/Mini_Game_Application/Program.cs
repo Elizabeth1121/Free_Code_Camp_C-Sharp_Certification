@@ -10,6 +10,9 @@ bool shouldExit = false;
 int playerX = 0;
 int playerY = 0;
 
+// speed of player
+int speed = 1;
+
 // Console position of the food
 int foodX = 0;
 int foodY = 0;
@@ -34,6 +37,13 @@ while (!shouldExit)
     }
 
     Move();
+    
+    if(DidPlayerEat())
+    {
+        ChangePlayer();
+        PlayerAbilities();
+        ShowFood();
+    }
 }
 
 // stop program
@@ -54,13 +64,27 @@ void ShowFood()
     // Update food to a random index
     food = random.Next(0, foods.Length);
 
-    // Update food position to a random location
     foodX = random.Next(0, width - player.Length);
     foodY = random.Next(0, height - 1);
 
     // Display the food at the location
     Console.SetCursorPosition(foodX, foodY);
     Console.Write(foods[food]);
+}
+
+// Player eats the food
+bool DidPlayerEat()
+{
+    return playerX == foodX && playerY == foodY ? true : false;
+}
+
+void PlayerAbilities()
+{
+    // if player eats bad food
+    if(player == states[2])
+    {
+        FreezePlayer();
+    }
 }
 
 // Changes the player to match the food consumed
@@ -84,26 +108,27 @@ void Move()
     int lastX = playerX;
     int lastY = playerY;
     
-    switch (Console.ReadKey(true).Key) 
+    ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+    switch (keyInfo.Key)
     {
         case ConsoleKey.UpArrow:
-            playerY--; 
+            playerY -= speed;
             break;
-		case ConsoleKey.DownArrow: 
-            playerY++; 
+        case ConsoleKey.DownArrow:
+            playerY += speed;
             break;
-		case ConsoleKey.LeftArrow:  
-            playerX--; 
+        case ConsoleKey.LeftArrow:
+            playerX -= speed;
             break;
-		case ConsoleKey.RightArrow: 
-            playerX++; 
+        case ConsoleKey.RightArrow:
+            playerX += speed;
             break;
-		case ConsoleKey.Escape:     
-            shouldExit = true; 
+        case ConsoleKey.Escape:
+            shouldExit = true;
             break;
         default:
             ExitGame();
-        break;
+            break;
     }
 
     // Clear the characters at the previous position
