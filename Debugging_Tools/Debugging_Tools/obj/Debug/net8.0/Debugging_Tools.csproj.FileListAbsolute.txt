@@ -1,0 +1,15 @@
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\bin\Debug\net8.0\Debugging_Tools.exe
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\bin\Debug\net8.0\Debugging_Tools.deps.json
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\bin\Debug\net8.0\Debugging_Tools.runtimeconfig.json
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\bin\Debug\net8.0\Debugging_Tools.dll
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\bin\Debug\net8.0\Debugging_Tools.pdb
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.AssemblyInfoInputs.cache
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.AssemblyInfo.cs
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.csproj.CoreCompileInputs.cache
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.sourcelink.json
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.dll
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\refint\Debugging_Tools.dll
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.pdb
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\Debugging_Tools.genruntimeconfig.cache
+c:\Users\itsyb\OneDrive\Documents\Free_Code_Camp_C-Sharp_Certification-1\Debugging_Tools\Debugging_Tools\obj\Debug\net8.0\ref\Debugging_Tools.dll
