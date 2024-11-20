@@ -1,33 +1,87 @@
-﻿try
-{
-    Process1();
-}
-catch
-{
-    Console.WriteLine("An exception has occurred");
-}
+﻿//try
+//{
+    //int num1 = int.MaxValue;
+    //int num2 = int.MaxValue;
+    //int result = num1 + num2;
+    //Console.WriteLine("Result: " + result);
 
-Console.WriteLine("Exit program");
+    //string str = null;
+    //int length = str.Length;
+    //Console.WriteLine("String Length: " + length);
 
-static void Process1()
+    //int[] numbers = new int[5];
+    //numbers[5] = 10;
+    //Console.WriteLine("Number at index 5: " + numbers[5]);
+
+    //int num3 = 10;
+    //int num4 = 0;
+    //int result2 = num3 / num4;
+    //Console.WriteLine("Result: " + result2);
+//}
+//catch (OverflowException ex)
+//{
+    //Console.WriteLine("Error: The number is too large to be represented as an integer." + ex.Message);
+//}
+//catch (NullReferenceException ex)
+//{
+    //Console.WriteLine("Error: The reference is null." + ex.Message);
+//}
+//catch (IndexOutOfRangeException ex)
+//{
+    //Console.WriteLine("Error: Index out of range." + ex.Message);
+//}
+//catch (DivideByZeroException ex)
+//{
+    //Console.WriteLine("Error: Cannot divide by zero." + ex.Message);
+//}
+
+checked
 {
     try
     {
-        WriteMessage();
+        int num1 = int.MaxValue;
+        int num2 = int.MaxValue;
+        int result = num1 + num2;
+        Console.WriteLine("Result: " + result);
     }
-    catch
+    catch (OverflowException ex)
     {
-        Console.WriteLine("An exception has occurred in Process1");
+        Console.WriteLine("Error: The number is too large to be represented as an integer." + ex.Message);
     }
 }
 
-static void WriteMessage()
+try
 {
-    double float1 = 3000.0;
-    double float2 = 0.0;
-    int number1 = 3000;
-    int number2 = 0;
-
-    Console.WriteLine(float1 / float2);
-    Console.WriteLine(number1 / number2);
+    string? str = null;
+    int length = str.Length;
+    Console.WriteLine("String Length: " + length);
 }
+catch (NullReferenceException ex)
+{
+    Console.WriteLine("Error: The reference is null." + ex.Message);
+}
+
+try
+{
+    int[] numbers = new int[5];
+    numbers[5] = 10;
+    Console.WriteLine("Number at index 5: " + numbers[5]);
+}
+catch (IndexOutOfRangeException ex)
+{
+    Console.WriteLine("Error: Index out of range." + ex.Message);
+}
+
+try
+{
+    int num3 = 10;
+    int num4 = 0;
+    int result2 = num3 / num4;
+    Console.WriteLine("Result: " + result2);
+}
+catch (DivideByZeroException ex)
+{
+    Console.WriteLine("Error: Cannot divide by zero." + ex.Message);
+}
+
+Console.WriteLine("Exit Program.");
